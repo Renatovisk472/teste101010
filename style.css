@@ -1,0 +1,72 @@
+
+body {
+  padding: 0;
+  margin: 0;
+  background-size:cover;
+  background-image:url(https://images.pexels.com/photos/1694000/pexels-photo-1694000.jpeg?cs=srgb&dl=pexels-apasaric-1694000.jpg&fm=jpg);
+}
+
+header > h1 {
+  text-align: center;
+  font-family: monospace, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h1 {
+  margin-left: 50px;
+  font-family: monospace, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+section {
+  width: 800px;
+  height: 1000px;
+  background-image: linear-gradient(rgb(162, 218, 255), rgb(224, 178, 245));
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px #161616;
+border: solid 5px rgb(255, 255, 255);
+  margin: auto;
+}
+
+.caixa1{
+  width:500px;
+}
+
+p {
+  font-size: 25px;
+  margin-left: 50px;
+  font-family: monospace, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.caixinhasAtributos {
+  width: 100px;
+  margin-left: 15px;
+}
+
+.fases{
+  font-size:20px;
+  font-family: monospace, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    padding: 10px;
+  }
+  section {
+    width: 400px;
+  }
+
+  input {
+    width: 200px;
+    height: 25px;
+  }
+
+  .caixasTexto {
+    margin-left: 10px;
+  }
+
+  .caixinhasAtributos {
+    width: 100px;
+    margin-left: 15px;
+  }
+}
